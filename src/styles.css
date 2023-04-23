@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.equip-card {
+  height: 800px;
+  width: 300px;
+  /* zoom  in */
+  object-fit: cover;
+}
+
+.equip-cart {
+  display: "block";
+  padding: 30;
+}
+
+.equip-card {
+  width: 340px;
+  height: min-content;
+}
+
+.add-equip-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  margin-top: 50px;
+  gap: 20px;
+  width: 30%;
+  align-items: stretch;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.equip-list-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
