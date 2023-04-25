@@ -126,7 +126,7 @@ export function AddEquip({ equipList, setEquipList }) {
       {formik.touched.price && formik.errors.price ? formik.errors.price : null}
 
       <Button type="Submit" variant="contained">
-        add movie
+        add equip
       </Button>
       <br></br>
     </form>
